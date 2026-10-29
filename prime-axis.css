@@ -1,3 +1,15 @@
+
+/* --- Ultimate Overflow Shield --- */
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  position: relative;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 :root {
   --bg: #080807;
   --panel: #11110f;
@@ -743,7 +755,7 @@ footer {
     flex-direction: column;
   }
 }
-@media (max-width: 647px) {
+@media (max-width: 662px) {
   .container {
     width: min(var(--max), calc(100% - 32px));
   }
